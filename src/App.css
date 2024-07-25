@@ -1,0 +1,86 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    font-family: "Roboto Mono", monospace;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app-container {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgb(6, 4, 4);
+    padding: 20px;
+    width: 400px;
+    max-width: 100%;
+    filter: drop-shadow(1px 2px 3px black);
+  }
+  
+  h1 {
+    color: #dde2e8;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #a57e7e;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #e2bebe;
+  }
+  
+  select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #translated-text {
+    color: black;
+    background-color: #cfb8b8;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+  
